@@ -26,6 +26,7 @@ declare module 'telegraf-i18n' {
         t (resourceKey?: string, templateData?: object): string;
         locale (): string;
         locale (languageCode?: string): void;
+        static match(string: string, contextData?: any): string;
     }
 
     export default I18n;
