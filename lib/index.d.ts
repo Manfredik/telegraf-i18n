@@ -1,4 +1,4 @@
-declare module 'telegraf-i18n' {
+declare module 'telegraf-i18n_my' {
     interface Config {
         directory?: string;
         useSession?: boolean;
